@@ -1,0 +1,311 @@
+header{
+	
+    position:sticky;
+}
+
+span.group{
+	color: gray;
+
+}
+
+
+span.doc{
+	color: #1ABC9C;
+}
+h1{
+	font-family: Arial;
+	display: flex;
+	margin-left: 6px;
+	font-size: 25px;
+
+}
+.logo{
+	margin-left: 120px;
+
+	}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 150PX;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 16px 5px;
+  z-index: 1;
+  
+
+  
+}
+.dropdown-content ul{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	padding:0;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {  color: #1ABC9C;
+  }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+  font-size: 15px;
+
+  }
+
+
+
+.nav{
+	position: fixed;
+    background-color: #fff;
+    display: flex;
+    width: 100%;
+    top: 0;left: 0;
+    align-items: center;
+	float: right;
+	font-family: Veranda;
+	font-size: 16px;
+
+}
+a:hover{
+	color: #1ABC9C;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%; 
+    margin-right: 150px;
+}
+
+
+li{
+    list-style-type: none;
+}
+
+a{
+	color: gray;
+	text-decoration: none;
+	padding-right: 20px;
+}
+section{
+	display: flex;
+	flex-direction: column;
+}
+.section1{
+	margin-top: 100px;
+	text-align: center;
+	color: #1ABC9C;
+	font-family: Work Sans,Arial,sans-serif;
+	font-size: 2.100rem;
+	font-weight: lighter;
+}
+.parag{
+	display: flex;
+	color: gray;
+	margin-left: 120px;
+	margin-right: 130px;
+	font-family: Work Sans,Arial,sans-serif;
+	justify-content: space-between;
+
+}
+.col-1{
+	width: 50%;
+	float: left;
+	margin-right: 21px;
+}
+.col-2{
+	width: 50%; 
+}
+.bloc{
+	display: flex;
+	margin-left: 120px;
+}
+.pat{
+	width: 25%;
+	background-color: #00ccb1;
+	border-radius: 10px;
+	margin-left: 2px;
+	padding: 20px 20px;
+	font-size: 24px;
+	color: white;
+}
+.doct{
+	width: 25%;
+	background-color:  #3d83df;
+	border-radius: 10px;
+	margin-left: 16px;
+	padding: 20px 20px;
+	font-size: 24px;
+	color: white;
+
+
+}
+.clinic{
+	width: 25%;
+	background-color: #1b2734;
+	border-radius: 10px;
+	padding: 20px 20px;
+	margin-left: 20px;
+	font-size: 24px;
+	color: white;
+
+}
+select{
+	text-decoration: underline;
+	cursor: pointer;
+	border:0;
+	background: transparent;
+	color: white;
+}
+option{
+	color: black;
+}
+.lists{
+display: flex;
+flex-direction: column;}
+.sec{
+	display: flex;
+	flex:2;
+	padding-top: 45px;
+	margin-left: 118px;
+
+
+}
+
+.brands{
+	display: flex;
+	flex-direction: row;
+
+}
+.brands h1{
+	color: #00b39b;
+	padding-right: 1em;
+	margin: .25em 0 .35em;
+	font-weight: lighter;
+	font-size: 1.625em;
+	}
+
+.brands_logos{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	width: 67%;
+	list-style: none;
+
+
+}
+.brands-logos a svg {
+	height: 20px;
+	width: auto;
+	max-width: 100%;
+	padding-left: 20px;
+
+}
+.brands_logos a path{
+	fill: hsla(0,0%,67%,.7);
+}
+.sec_3 h1{
+	color: #00b39b;
+
+}
+
+.sec_3{
+	background-color: #e5faf8;
+	display: flex;
+
+}
+.paragraphe{
+	width: 50%;
+
+}
+.paragraphe h1{
+	margin-left: 120px;
+	color: #00b39b;
+	font-weight: lighter;
+    font-family: Work Sans,Arial,sans-serif;
+    font-size: 40px;
+    font-weight: 0;
+
+}
+.paragraphe p{
+	margin-left: 120px;
+	max-width: 415px;
+	font-size: 16px;
+	color: gray;
+}
+.grid_element{
+	display: flex;
+	flex-wrap: wrap;
+}
+.Leader{
+	background-color: white;
+	margin-top: 70px;
+	width: 30%;
+	height: 40%;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 16px;
+	margin-left: 100px;
+	color: #00b39b;
+
+}
+
+.appointment{
+	background-color: white;
+	margin-top: 30px;
+	width: 30%;
+	height: 40%;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 16px;
+	margin-left: 50px;
+	color: #00b39b;
+
+
+}
+.unique_patients{
+	background-color: white;
+	margin-top: 50px;
+	width: 30%;
+	max-height: 33%;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 16px;
+	margin-left: 100px;
+	color: #00b39b;
+	margin-top: 20px;
+}
+.active_doctors{
+	background-color: white;
+	width: 30%;
+	max-height: 70%;
+	border-radius: 10px;
+	text-align: center;
+	padding-top: 30px;
+	margin-left: 65px;
+	color: #00b39b;
+	padding-bottom: 20px;
+	margin-bottom: 29px;
+
+}
+.sec_3{
+	margin-left: 30px; 
+}
+footer p{
+	margin-left: 60px;
+	color: gray;
+	text-align: center;
+
+	font-size: 12px;
+}
+footer a{
+	color: blue
+}
+footer a:hover{
+	text-decoration: underline;
+	color: blue;
+}
